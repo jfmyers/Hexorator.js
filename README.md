@@ -4,7 +4,7 @@ Hexorator is a jQuery plugin that allows you to group text tags by similar hex v
 
 <h3>Setting Up</h3>
 
-```javascript 
+```html 
 
    //html
    <ul>
@@ -15,7 +15,8 @@ Hexorator is a jQuery plugin that allows you to group text tags by similar hex v
       <li class="tag">Ravens</li>
       <li class="tag">Patriots</li>
    </ul>
-   
+```
+```javascript
    /*The selector is the tag class. Hexorator will assign each unqiue tag with a unique background color
    For example, both "Eagles" tags will be assigned the same background color.*/
    $(".tag").hexorator()
